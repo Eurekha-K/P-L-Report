@@ -1,23 +1,13 @@
-# Excel-Atliq-Hardware-Project
+ # Sales Analytics Overview:
+The Sales Analytics initiative at Atliq involves a comprehensive process beginning with ETL (Extract, Transform, Load) operations, utilizing Power Query within Excel for data refinement. This includes intricate transformations such as value substitution and normalization of financial figures. The integration of dimension and fact tables through the star schema methodology ensures robust data modeling in Power Pivot. Central to this framework is the creation of the dim_date table, crafted using advanced Power Query M-Language, which enhances temporal analysis capabilities. Leveraging DAX functions such as SUM, CALCULATE, and DIVIDE, the analytics framework facilitates the creation of pivotal reports like Customer Performance and Market Performance vs. Target, pivotal in evaluating financial performance and guiding strategic decision-making across diverse stakeholders.
 
-Atliq Hardware Project
+Finance Analytics Overview:
+Finance Analytics at Atliq extends its reach by incorporating financial data into the existing data model via Power Query, thereby enriching analytical capabilities. Utilizing DAX functions, critical financial measures are computed, while the creation of fiscal months and quarters within the dim_date table streamlines temporal analysis. This approach underpins the generation of key reports such as Profit & Loss Statements by Fiscal Year, Market, and Quarters, pivotal for benchmarking against industry peers and historical trends. These reports not only bolster strategic financial planning but also serve as foundational tools for precise budgeting and forecasting exercises, thereby fostering organizational confidence in financial outlook and strategic alignment.
 
-Business Model of Atliq: 
-            Atliq is a company that sells hardware like PC, mouse, printers and so on to different stores(customers) like croma, BESTBUY, STAPLES, flipkart and then from there, these stores will sell the hardware to the end consumer person.They have manufacturing facility where they build all these hardware and then they send it to a warehouse distribution centers. They have business in different countries, so they ship it to different location and from there the material or the hardware items will go to the individual stores.
+Role and Impact of Reports:
+These sophisticated analytical reports play a pivotal role in aligning financial planning with strategic imperatives at Atliq Hardware. By providing nuanced insights into financial performance and market dynamics, they empower stakeholders to make informed decisions and optimize resource allocation effectively. Moreover, they serve as a cornerstone for fostering confidence within the organization, ensuring a robust foundation for future growth and sustainability.
 
-Task : To create report on Sales and Finance Analytics for Atliq using requirement file given by Atliq business users to understand the end business outcome.
-
-1. Sales Analytics : Following methods are involved in creating report on Sales Analytics.
-
-- Performed ETL(Extract, Tranform and Load):imported csv files into excel, then used power query to perform some transformation like replace values,converted negative values into 
-  absolute value and later transform data loaded back to excel.
-- Connected dimension and fact tables using data modelling in power pivot by method of star schema. 
-- Created dim_date table consists of column like date, month and fiscal year of Atliq using Power Query M-Language and added dim_date table to data model later connected to fact table.
-- Used Date Analysis Expression(DAX) function such as sum,calculte,divide and so on for calculating appropriate measures, created Customer Performance Report and Market Performance vs 
-  Target Report using pivot table.
-
-Purpose of sales analytics : Evaluation of financial performance, support decision-making, and facilitate communication with stakeholders.
-
+In essence, through meticulous data integration, advanced analytical methodologies, and strategic report generation, Atliq Hardware leverages Sales and Finance Analytics to drive operational excellence and strategic agility in the competitive hardware market landscape.
 2. Finance Analytics : Following methods are involved in creating report on Finance Analytics.
 
 - Added finance data to data model using power query.
